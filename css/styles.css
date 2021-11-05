@@ -105,7 +105,14 @@ img {
   margin-left: auto;
 }
 .auth-nav-item + .auth-nav-item {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+.auth-nav-item {
+  display: flex;
+}
+.test {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .contact-link {
   display: block;
@@ -117,6 +124,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  outline: 1px solid tomato;
 }
 
 /* Heading */
