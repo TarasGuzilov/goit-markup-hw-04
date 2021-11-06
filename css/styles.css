@@ -298,8 +298,6 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
-  outline: 1px solid teal;
 }
 .member-social-web-icon {
   fill: #afb1b8;
@@ -320,9 +318,32 @@ img {
 }
 .regular-customers-list {
   display: flex;
+  justify-content: center;
 }
 .regular-customers-item {
-  background-color: tomato;
+}
+.regular-customers-item + .regular-customers-item {
+  margin-left: 30px;
+}
+.regular-customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.regular-customers-icon {
+  fill: #afb1b8;
+}
+.regular-customers-link:hover,
+.regular-customers-link:focus {
+  border: 1px solid var(--active-link-color);
+}
+.regular-customers-link:hover > svg,
+.regular-customers-link:focus > svg {
+  fill: var(--active-link-color);
 }
 
 /* Filters section */
