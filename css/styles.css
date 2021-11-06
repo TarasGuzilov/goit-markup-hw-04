@@ -267,20 +267,50 @@ img {
   padding-bottom: 30px;
 }
 .name-of-staff-member {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
 }
 .proffesion {
+  margin-bottom: 16px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.member-social-web-list {
+  display: flex;
+  justify-content: center;
+}
+.member-social-web-item + .member-social-web-item {
+  margin-left: 10px;
+}
+.member-social-web-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  outline: 1px solid teal;
+}
+.member-social-web-icon {
+  fill: #afb1b8;
+}
+.member-social-web-link:hover,
+.member-social-web-link:focus {
+  background-color: var(--active-link-color);
+}
+.member-social-web-link:hover > svg,
+.member-social-web-link:focus > svg {
+  fill: #ffffff;
 }
 
 /* Regular customers */
