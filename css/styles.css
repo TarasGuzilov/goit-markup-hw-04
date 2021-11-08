@@ -47,8 +47,6 @@ img {
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
-
-  outline: 1px solid tomato;
 }
 
 /* Hidden elements */
@@ -126,8 +124,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  outline: 1px solid tomato;
 }
 
 /* Heading */
@@ -463,8 +459,6 @@ footer {
 
 .join-social-web-section {
   margin-left: 70px;
-
-  outline: 1px solid tomato;
 }
 .join-social-web-section > h4 {
   margin-bottom: 20px;
